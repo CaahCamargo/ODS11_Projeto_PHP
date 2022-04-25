@@ -123,3 +123,16 @@ a:hover{
     margin-top: 0.5rem;
     width: 220px;
 }
+
+.cardAutor{
+    margin-top: 1rem;
+}
+
+.cardAutor img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}

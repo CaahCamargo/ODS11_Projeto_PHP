@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TecBlog - seu blogue de tecnologia!</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/slideshow.css" type="text/css">
 </head>
 <body>
     <div id="cabecalho">
@@ -115,11 +116,90 @@
                 <a href="#">Segurança</a><br>
                 <a href="#">Energia</a><br>
                 <a href="#">Cidades do Futuro</a><br>
-                            
+                
             </div>
             <!-- FIM Categorias Lateral -->
+            
+            <!-- Sobre Lateral -->
+            <div class="conteudoLateral">
+                <h3>A Ay'Dy</h3>
+                <div class="slideshow-container">
+                    <div class="mySlides">
+                      <div class="numbertext">1 / 6</div>
+                      <p>Conheça a Ay'Dy</p>
+                      
+                    </div>
+                  
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 6</div>
+                        <div class="cardAutor">
+                            <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg">
+                            <h4>Caroline de Camargo</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                  
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 6</div>
+                        <div class="cardAutor">
+                            <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg">
+                            <h4>Guilherme Reis</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    
+                    </div>
+                  
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 6</div>
+                        <div class="cardAutor">
+                            <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg">
+                            <h4>Gustavo Araújo</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                      
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 6</div>
+                        <div class="cardAutor">
+                            <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg">
+                            <h4>Gustavo</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                      
+                    </div>
+
+                    <div class="mySlides">
+                      <div class="numbertext">6 / 6</div>
+                      <h5>Sobre o Projeto</h5>
+                      <p>Sistema de Informação<br>PW3 - 2022</p>
+                      <p>Professor: Diego Henrique Negretto</p>
+                      <h5>Técnologias</h5>
+                      <p>PHP, JavaScript, Htlm, Css, Bootstrap</p>
+                      
+                    </div>
+                  
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+                  
+                  <div style="text-align: center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                  </div>
+                            
+            </div>
+            <!-- FIM Sobre Lateral -->
         </div>
         <!-- FIM Menu Lateral Blog -->
     </div>
+
+    <!-- STYLES JS -->
+    <script src="./js/slideshow.js"></script>
 </body>
 </html>
