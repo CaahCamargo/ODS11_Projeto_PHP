@@ -79,10 +79,11 @@ a:hover{
 }
 
 #rodape{
-    background: #CCC;
+    background: #4c00e6;
     clear: both;
     text-align: center;
     padding: 15px;
+    color: #ffffff;
 }
 
 .branco{
@@ -127,6 +128,8 @@ a:hover{
 .cardAutor{
     margin-top: 1rem;
     text-align: center;
+    width: 220px;
+    height: 240px;
 }
 
 .cardAutor img{
