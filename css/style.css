@@ -41,11 +41,6 @@ a:hover{
     padding: 8px 12px;
 }
 
-#cabecalho a:hover{
-    color: #f7b600;
-    background: #ffffff;
-}
-
 #cabecalho{
     background-color: #4c00e6;
     padding: 15px;
@@ -84,6 +79,9 @@ a:hover{
     text-align: center;
     padding: 15px;
     color: #ffffff;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 .branco{
@@ -140,3 +138,4 @@ a:hover{
     margin-right: auto;
     display: flex;
 }
+

@@ -1,0 +1,187 @@
+.forms-div {
+    margin-top: 0.5rem;
+    display: grid;
+    place-content: center;
+}
+
+.formGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.formGridValores{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.label-form {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 12px;
+    text-decoration: underline;
+}
+
+.selectInput{
+    background: transparent;
+    width: 30rem;
+    height: 2.4rem;
+    border-radius: 5px;
+}
+
+.input-form {
+    background-color: transparent !important;
+    height: 2rem;
+    border-radius: 5px;
+    padding-left: 0.2rem;
+    width: 30rem;
+}
+
+
+.input-form::placeholder {
+  font-size: 16px;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    color: red;
+    margin-bottom: 0;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    line-height: 18px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+#btn-voltar{
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 4px;
+    color: #fff;
+    background: #4c00e6;
+    border: #4c00e6;
+    margin-bottom: 5rem;
+}
+
+#btn-enviar{
+    margin-top: 2rem;
+    float: right;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 4px;
+    color: #fff;
+    background: #ff3300;
+    border: #ff3300;
+}
+
+#imgHero{
+    /* width: 100%; */
+    /* margin-left: auto;
+    display: flex;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-top: 1rem; */
+      
+    width: 400px;
+    display: flex;
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin-left: 20rem;
+}
+
+#cadastroCidade{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  .containerIMG {
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .container img {vertical-align: middle;}
+  
+  .container .content {
+    /* position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    border-radius: 0 0 20px 20px; */
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 75%;
+    margin-left: 20rem;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+  }
+
+  #cadastrarCidades{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+.contactForm{
+    float: left;
+    margin-top: 3rem;
+  }
+
+#titleForm{
+    font-size: 40px;
+    font-weight: bold;
+    color: #4c00e6;
+    margin-top: 1rem;
+}
+
+#titleForm span{
+    color: #ff3300;
+}
